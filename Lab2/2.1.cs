@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace Lab2
 {
     internal class _1
@@ -15,13 +14,11 @@ namespace Lab2
             namX = Convert.ToInt32(Console.ReadLine());
             Console.Write("Nhap thang: ");
             bool namNhuan = true;
-
             do
             {
                 thangY = Convert.ToInt32(Console.ReadLine());
             }
             while (thangY < 1 || thangY > 12);
-
             if (namX % 400 == 0 || (namX % 4 == 0 & namX % 100 != 0))
             {
                 Console.WriteLine("Nam {0} la nam nhuan", namX);
@@ -32,7 +29,6 @@ namespace Lab2
                 Console.WriteLine("Nam {0} la nam khong nhuan", namX);
                 namNhuan = false;
             }
-
             switch (thangY)
             {
                 case 1:
