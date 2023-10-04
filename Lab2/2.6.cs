@@ -7,8 +7,9 @@ namespace Lab2
 {
     internal class _6
     {
-        public void tamGiac()
+        public void TamGiacSo()
         {
+            Console.Write("Nhap mot so:");
             int n, i = 1, j = 1, k = 1;
             n = Convert.ToInt32(Console.ReadLine());
             for (i = 1; i <= n; i++)
@@ -24,7 +25,7 @@ namespace Lab2
                         }
                         Console.Write("{0} ", k);
                     }
-                    else if (j >= n - i + 1 && j < n && i > 1)
+                    else if (j >= n - i + 1 && j < n)
                     {
                         if (p < 10)
                         {
@@ -36,7 +37,7 @@ namespace Lab2
                             p++;
                         }
                     }
-                    else if (j <= n + i - 1 && j > n && i > 1)
+                    else if (j <= n + i - 1 && j > n)
                     {
                         --p;
                         if (p >= 10)

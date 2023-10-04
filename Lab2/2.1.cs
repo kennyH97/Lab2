@@ -7,7 +7,7 @@ namespace Lab2
 {
     internal class _1
     {
-        public void namXthangY()
+        public void NamXthangY()
         {
             int namX, thangY;
             Console.Write("Nhap nam: ");
@@ -44,7 +44,7 @@ namespace Lab2
                 case 6:
                 case 9:
                 case 11:
-                    Console.WriteLine("Thang {0} co 31 ngay.", thangY);
+                    Console.WriteLine("Thang {0} co 30 ngay.", thangY);
                     break;
                 case 2:
                     if (namNhuan == true)
